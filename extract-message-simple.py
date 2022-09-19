@@ -1,10 +1,8 @@
-from PIL import Image, ImageChops, ImageEnhance
+from PIL import Image, ImageChops
 
 if __name__ == "__main__":
     george_with_message = Image.open("assets/george-with-message.png")
-
     george = Image.open("assets/george.png")
-
     message = ImageChops.difference(george_with_message, george)
     # ImageEnhance.Contrast(message).enhance(100)
     # ImageEnhance.Brightness(message).enhance(100)

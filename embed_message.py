@@ -11,5 +11,5 @@ if __name__ == "__main__":
 
     addition = george_pixels + darkened_message_pixels
 
-    resultImage = Image.fromarray(addition)
-    resultImage.save("assets/george-with-message.png")
+    result_image = Image.fromarray(addition)
+    result_image.save("assets/george-with-message.png")
