@@ -13,5 +13,6 @@ __pycache__/
 # Mac
 .DS_Store
 
-# The build directory doesn't belong in git
-/build/
+# The contents of the build directory don't belong in git
+/build/*
+!/build/.gitkeep
