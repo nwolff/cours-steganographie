@@ -1,5 +1,5 @@
-from PIL import Image
 from numpy import asarray
+from PIL import Image
 
 if __name__ == "__main__":
     george_with_message = Image.open("assets/george-with-message.png")
